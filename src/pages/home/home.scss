@@ -1,0 +1,44 @@
+page-home {
+    text-align: center;
+    align-content: center;
+    font-family: Georgia;
+    color: greenyellow;
+    
+
+.inputs{
+    margin-top: 50%;
+    opacity: 0.5;
+    margin: 50% auto 3% auto;
+    background-color: rgb(0, 0, 0);
+  
+}
+#dt{
+    text-shadow: white 3px 3px 3px;
+}
+.bg{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../../assets/imgs/gif-10.gif");
+    background-size: cover;
+    background-position: center;
+    
+}
+.input1{
+    opacity: 0.5;
+    margin: 0% auto 3% auto;
+    background-color: rgb(0, 0, 0);
+    text-decoration-color: antiquewhite;
+    color: white;
+}
+.input2{
+    opacity: 0.5;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+ion-input{
+    color:white;
+}
+
+.button-ios-primary{
+    box-shadow: white 3px 3px 5px;
+  
+}
+}

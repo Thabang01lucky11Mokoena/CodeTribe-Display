@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+    Welcome 
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="bg" text-center>
+  <h1></h1>
+  <img src="../../assets/imgs/Number-2-icon.png" width="10%">
+  <h1 id="dt">CodeTribe Academy</h1>
+ 
+  <ion-item class="inputs">
+    <ion-label color="primary" fixed>Name:</ion-label>
+    <ion-input type="text" placeholder="Enter FullNames" #UserName></ion-input>
+  </ion-item>
+
+  <ion-item class="input1">
+    <ion-label color="primary" fixed>Last Name:</ion-label>
+    <ion-input type="text" placeholder="Enter LastName" #LastName></ion-input>
+  </ion-item>
+
+  <ion-item class="input2">
+    <ion-label color="primary" fixed>Student ID:</ion-label>
+    <ion-input type="number" placeholder="Enter Your I.D" #ID></ion-input>
+  </ion-item>
+  <br>
+  <br>
+  <button id="btn" ion-button color="primary" (click)="Display(UserName.value, LastName.value, ID.value)">DISPLAY</button>
+</ion-content>

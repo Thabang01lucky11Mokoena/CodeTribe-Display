@@ -1,0 +1,15 @@
+page-display {
+    font-family: Georgia;
+    .bg{
+        background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("../../assets/imgs/TTTTT.gif");
+        background-size: cover;
+        background-position: center;
+    }
+    .para{
+        margin-top: 65%;
+        font-size: 12.5px;
+    }
+    ion-title{
+        text-align: center;
+    }
+}
